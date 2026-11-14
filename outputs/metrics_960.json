@@ -1,0 +1,53 @@
+[
+  {
+    "weights": "weights/best_person.pt",
+    "split": "val",
+    "images": 25,
+    "gt_persons": 50,
+    "operating_conf": 0.35,
+    "precision": 0.6727,
+    "recall": 0.74,
+    "f1": 0.7048,
+    "AP50": 0.7345,
+    "AP50_95": 0.4705,
+    "crowd_count_exact_match": 0.88,
+    "crowd_count_MAE": 0.12,
+    "crowd_member_precision": 0.963,
+    "crowd_member_recall": 0.9286,
+    "crowd_member_f1": 0.9455
+  },
+  {
+    "weights": "weights/yolo11s.pt",
+    "split": "val",
+    "images": 25,
+    "gt_persons": 50,
+    "operating_conf": 0.35,
+    "precision": 0.9268,
+    "recall": 0.76,
+    "f1": 0.8352,
+    "AP50": 0.8592,
+    "AP50_95": 0.6507,
+    "crowd_count_exact_match": 0.96,
+    "crowd_count_MAE": 0.04,
+    "crowd_member_precision": 1.0,
+    "crowd_member_recall": 0.9333,
+    "crowd_member_f1": 0.9655
+  },
+  {
+    "weights": "weights/yolo11m.pt",
+    "split": "val",
+    "images": 25,
+    "gt_persons": 50,
+    "operating_conf": 0.35,
+    "precision": 0.8723,
+    "recall": 0.82,
+    "f1": 0.8454,
+    "AP50": 0.8591,
+    "AP50_95": 0.6825,
+    "crowd_count_exact_match": 0.92,
+    "crowd_count_MAE": 0.08,
+    "crowd_member_precision": 1.0,
+    "crowd_member_recall": 0.9375,
+    "crowd_member_f1": 0.9677
+  }
+]

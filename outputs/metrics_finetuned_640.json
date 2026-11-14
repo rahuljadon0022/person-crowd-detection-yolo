@@ -1,0 +1,19 @@
+[
+  {
+    "weights": "weights/best_person.pt",
+    "split": "val",
+    "images": 25,
+    "gt_persons": 50,
+    "operating_conf": 0.35,
+    "precision": 0.6786,
+    "recall": 0.76,
+    "f1": 0.717,
+    "AP50": 0.7874,
+    "AP50_95": 0.5099,
+    "crowd_count_exact_match": 0.84,
+    "crowd_count_MAE": 0.16,
+    "crowd_member_precision": 0.9643,
+    "crowd_member_recall": 0.9,
+    "crowd_member_f1": 0.931
+  }
+]

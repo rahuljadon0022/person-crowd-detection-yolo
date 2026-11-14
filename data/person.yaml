@@ -1,0 +1,5 @@
+path: C:\Users\Rahul Jadon\Downloads\crowd_detection_project (1)\crowd_detection\data\person_dataset
+train: images/train
+val: images/val
+names:
+  0: person

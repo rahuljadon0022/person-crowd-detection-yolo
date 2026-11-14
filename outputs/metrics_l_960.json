@@ -1,0 +1,19 @@
+[
+  {
+    "weights": "weights/yolo11l.pt",
+    "split": "val",
+    "images": 25,
+    "gt_persons": 50,
+    "operating_conf": 0.35,
+    "precision": 0.8913,
+    "recall": 0.82,
+    "f1": 0.8542,
+    "AP50": 0.8819,
+    "AP50_95": 0.686,
+    "crowd_count_exact_match": 0.96,
+    "crowd_count_MAE": 0.04,
+    "crowd_member_precision": 1.0,
+    "crowd_member_recall": 0.9697,
+    "crowd_member_f1": 0.9846
+  }
+]
